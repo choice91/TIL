@@ -7,6 +7,12 @@
 - 최단 경로를 쉽게 찾을 수 있다.
 ### 단점
 - 모든 분기되는 수를 다 저장하다보니 공간을 많이 써야하고, 모든 걸 다 보고 오다보니 시간이 오래걸릴 수 있다.
+
+### 이해를 돕기 위한 이미지
+![Breadth-First-Search-Algorithm](https://user-images.githubusercontent.com/48742487/123113452-87d5d000-d479-11eb-8634-e2cb9681499e.gif)
+https://commons.wikimedia.org/wiki/File:Breadth-First-Search-Algorithm.gif
+
+
 ```
 graph = {
     1: [2, 3, 4],
