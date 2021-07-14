@@ -17,16 +17,19 @@ yarn add redux
 
 yarn add react-redux
 ```
+<br />
 
 ## State (상태)
 - 리덕스에서 저장하고 있는 상태값
 - 딕셔너리 형태 `{key: value}`로 보관한다.
+- <br />
 
 ## Action (액션)
 - reducer와 소통하는 방법으로 Object여야하며 그 key는 항상 type이다.
 ```
 { type: "CHANGE_STATE", data: {...} }
 ```
+<br />
 
 ## Action Creator (액션 생성 함수)
 - Action Creator는 액션을 만드는 함수이다.
@@ -40,6 +43,7 @@ const changeState = (new_data) => {
   }
 }
 ```
+<br />
 
 ## Reducer (리듀서)
 - 순수함수
@@ -60,15 +64,18 @@ function reducer (state = initialState, action) {
   }
 }
 ```
+<br />
 
 ## Store (스토어)
 - 한 개의 프로젝트는 하나의 스토어만을 가질 수 있다.
 - state(상태)를 저장하는 곳이다.
+<br />
 
 ## Dispatch (디스패치)
 - reducer에게 action을 보내는 방법이다.
 - action을 발생시키는 역할을 한다.
 - `dispatch(action);`의 형태로 액션 객체를 파라미터로 넣어 호출한다.
+<br />
 
 ## Subscribe (구독)
 - 스토어 내장 함수 중 하나
